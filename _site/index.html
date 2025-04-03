@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>D Language Compiler Benchmarks</title>
+    <meta
+      name="description"
+      content="Performance metrics for D compiler pull requests"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/date-fns@2.30.0/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/dmd-releases/assets/css/style.css" />
+    <!-- Set global variables before any other scripts -->
+    <script>
+      window.BASE_URL = "/dmd-releases";
+      window.addEventListener('error', function (e) {
+        console.error('Global error caught:', e.error || e.message);
+      });
+    </script>
+  </head>
+
+  <body>
+    <div class="header">
+  <div class="container">
+    <h1>D Compiler Size Metrics</h1>
+    <p>Historical size tracking of DMD compiler executables across versions</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="chart-section">
+  <div class="chart-controls">
+    <div class="version-range-selector">
+      <button class="range-btn active" data-range="5">Last 5</button>
+      <button class="range-btn" data-range="10">Last 10</button>
+      <button class="range-btn" data-range="all">All Versions</button>
+    </div>
+  </div>
+  <div class="chart-grid">
+    <div id="chartError" class="error-message" style="display:none"></div>
+    <div class="chart-card">
+      <div class="chart-header">
+        <h3>Hello Executable Size</h3>
+        <div class="chart-legend">
+          <span class="legend-item">
+            <span class="legend-color hello-exe-color"></span>Size (KB)
+          </span>
+        </div>
+      </div>
+      <div class="chart-container">
+        <div class="loading-spinner" id="helloChartLoader">
+          <div class="spinner"></div>
+          <p>Loading data...</p>
+        </div>
+        <canvas id="helloChart"></canvas>
+      </div>
+    </div>
+    <div class="chart-card">
+      <div class="chart-header">
+        <h3>DMD Compiler Size</h3>
+        <div class="chart-legend">
+          <span class="legend-item">
+            <span class="legend-color dmd-exe-color"></span>Size (KB)
+          </span>
+        </div>
+      </div>
+      <div class="chart-container">
+        <div class="loading-spinner" id="dmdChartLoader">
+          <div class="spinner"></div>
+          <p>Loading data...</p>
+        </div>
+        <canvas id="dmdChart"></canvas>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+window.BASE_URL = "/dmd-releases";
+window.USE_SAMPLE_DATA = false;
+</script>
+<script src="/dmd-releases/assets/js/app.js"></script>
+
+  
+  <div class="benchmarks-section">
+    <div class="section-header">
+      <h2>All Versions</h2>
+    </div>
+    <div class="benchmark-wrapper" id="benchmarks">
+      <!-- Benchmark cards will be inserted here by JavaScript -->
+      <div class="loading-spinner" id="benchmarksLoader">
+        <div class="spinner"></div>
+        <p>Loading version data...</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-links">
+        <a href="https://dlang.org/" class="footer-link">D Language</a>
+        <a href="https://github.com/dlang" class="footer-link">GitHub</a>
+        <a href="https://forum.dlang.org/" class="footer-link">Forums</a>
+        <a href="https://dlang.org/docs.html" class="footer-link">Documentation</a>
+      </div>
+      <div class="copyright">
+        © 2025 D Language Foundation
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="/dmd-releases/assets/js/data-loader.js"></script>
+
+
+  </body>
+</html>

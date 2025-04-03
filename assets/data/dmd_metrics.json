@@ -1,0 +1,233 @@
+[
+    {
+        "timestamp":  "2025-04-03T21:22:41.0283047Z",
+        "dmd":  {
+                    "version":  "2.090",
+                    "localFolder":  "C:\\Users\\shris\\Downloads\\dmd\\dmd.2.090.0.windows"
+                },
+        "metrics":  {
+                        "hello_exe_size":  267292,
+                        "dmd_exe_size":  9253920
+                    }
+    },
+    {
+        "timestamp":  "2025-04-03T21:22:42.1749865Z",
+        "dmd":  {
+                    "version":  "2.091",
+                    "localFolder":  "C:\\Users\\shris\\Downloads\\dmd\\dmd.2.091.0.windows"
+                },
+        "metrics":  {
+                        "hello_exe_size":  263708,
+                        "dmd_exe_size":  4073480
+                    }
+    },
+    {
+        "timestamp":  "2025-04-03T21:22:43.2418041Z",
+        "dmd":  {
+                    "version":  "2.092",
+                    "localFolder":  "C:\\Users\\shris\\Downloads\\dmd\\dmd.2.092.0.windows"
+                },
+        "metrics":  {
+                        "hello_exe_size":  263196,
+                        "dmd_exe_size":  4109832
+                    }
+    },
+    {
+        "timestamp":  "2025-04-03T21:22:44.2352501Z",
+        "dmd":  {
+                    "version":  "2.093",
+                    "localFolder":  "C:\\Users\\shris\\Downloads\\dmd\\dmd.2.093.0.windows"
+                },
+        "metrics":  {
+                        "hello_exe_size":  266268,
+                        "dmd_exe_size":  4101128
+                    }
+    },
+    {
+        "timestamp":  "2025-04-03T21:22:45.2711077Z",
+        "dmd":  {
+                    "version":  "2.094",
+                    "localFolder":  "C:\\Users\\shris\\Downloads\\dmd\\dmd.2.094.0.windows"
+                },
+        "metrics":  {
+                        "hello_exe_size":  267292,
+                        "dmd_exe_size":  4163080
+                    }
+    },
+    {
+        "timestamp":  "2025-04-03T21:22:46.3883868Z",
+        "dmd":  {
+                    "version":  "2.095",
+                    "localFolder":  "C:\\Users\\shris\\Downloads\\dmd\\dmd.2.095.0.windows"
+                },
+        "metrics":  {
+                        "hello_exe_size":  267292,
+                        "dmd_exe_size":  4295176
+                    }
+    },
+    {
+        "timestamp":  "2025-04-03T21:22:47.4256477Z",
+        "dmd":  {
+                    "version":  "2.096",
+                    "localFolder":  "C:\\Users\\shris\\Downloads\\dmd\\dmd.2.096.0.windows"
+                },
+        "metrics":  {
+                        "hello_exe_size":  267292,
+                        "dmd_exe_size":  4316808
+                    }
+    },
+    {
+        "timestamp":  "2025-04-03T21:22:48.4169365Z",
+        "dmd":  {
+                    "version":  "2.097",
+                    "localFolder":  "C:\\Users\\shris\\Downloads\\dmd\\dmd.2.097.0.windows"
+                },
+        "metrics":  {
+                        "hello_exe_size":  267804,
+                        "dmd_exe_size":  4392640
+                    }
+    },
+    {
+        "timestamp":  "2025-04-03T21:22:51.1676989Z",
+        "dmd":  {
+                    "version":  "2.098",
+                    "localFolder":  "C:\\Users\\shris\\Downloads\\dmd\\dmd.2.098.0.windows"
+                },
+        "metrics":  {
+                        "hello_exe_size":  278556,
+                        "dmd_exe_size":  4514304
+                    }
+    },
+    {
+        "timestamp":  "2025-04-03T21:22:53.8979396Z",
+        "dmd":  {
+                    "version":  "2.099",
+                    "localFolder":  "C:\\Users\\shris\\Downloads\\dmd\\dmd.2.099.0.windows"
+                },
+        "metrics":  {
+                        "hello_exe_size":  264192,
+                        "dmd_exe_size":  5509120
+                    }
+    },
+    {
+        "timestamp":  "2025-04-03T21:22:57.6053563Z",
+        "dmd":  {
+                    "version":  "2.100",
+                    "localFolder":  "C:\\Users\\shris\\Downloads\\dmd\\dmd.2.100.0.windows"
+                },
+        "metrics":  {
+                        "hello_exe_size":  351232,
+                        "dmd_exe_size":  5498880
+                    }
+    },
+    {
+        "timestamp":  "2025-04-03T21:23:00.7620742Z",
+        "dmd":  {
+                    "version":  "2.101",
+                    "localFolder":  "C:\\Users\\shris\\Downloads\\dmd\\dmd.2.101.0.windows"
+                },
+        "metrics":  {
+                        "hello_exe_size":  359424,
+                        "dmd_exe_size":  5321728
+                    }
+    },
+    {
+        "timestamp":  "2025-04-03T21:23:04.2461552Z",
+        "dmd":  {
+                    "version":  "2.102",
+                    "localFolder":  "C:\\Users\\shris\\Downloads\\dmd\\dmd.2.102.0.windows"
+                },
+        "metrics":  {
+                        "hello_exe_size":  269824,
+                        "dmd_exe_size":  5345280
+                    }
+    },
+    {
+        "timestamp":  "2025-04-03T21:23:07.4952761Z",
+        "dmd":  {
+                    "version":  "2.103",
+                    "localFolder":  "C:\\Users\\shris\\Downloads\\dmd\\dmd.2.103.0.windows"
+                },
+        "metrics":  {
+                        "hello_exe_size":  267264,
+                        "dmd_exe_size":  5378048
+                    }
+    },
+    {
+        "timestamp":  "2025-04-03T21:23:10.3604006Z",
+        "dmd":  {
+                    "version":  "2.104",
+                    "localFolder":  "C:\\Users\\shris\\Downloads\\dmd\\dmd.2.104.0.windows"
+                },
+        "metrics":  {
+                        "hello_exe_size":  267776,
+                        "dmd_exe_size":  5255680
+                    }
+    },
+    {
+        "timestamp":  "2025-04-03T21:23:13.1464174Z",
+        "dmd":  {
+                    "version":  "2.105",
+                    "localFolder":  "C:\\Users\\shris\\Downloads\\dmd\\dmd.2.105.0.windows"
+                },
+        "metrics":  {
+                        "hello_exe_size":  262144,
+                        "dmd_exe_size":  5244416
+                    }
+    },
+    {
+        "timestamp":  "2025-04-03T21:23:15.5525223Z",
+        "dmd":  {
+                    "version":  "2.106",
+                    "localFolder":  "C:\\Users\\shris\\Downloads\\dmd\\dmd.2.106.0.windows"
+                },
+        "metrics":  {
+                        "hello_exe_size":  262144,
+                        "dmd_exe_size":  5356544
+                    }
+    },
+    {
+        "timestamp":  "2025-04-03T21:23:18.0290846Z",
+        "dmd":  {
+                    "version":  "2.107",
+                    "localFolder":  "C:\\Users\\shris\\Downloads\\dmd\\dmd.2.107.0.windows"
+                },
+        "metrics":  {
+                        "hello_exe_size":  262656,
+                        "dmd_exe_size":  5366784
+                    }
+    },
+    {
+        "timestamp":  "2025-04-03T21:23:20.5445720Z",
+        "dmd":  {
+                    "version":  "2.108",
+                    "localFolder":  "C:\\Users\\shris\\Downloads\\dmd\\dmd.2.108.0.windows"
+                },
+        "metrics":  {
+                        "hello_exe_size":  329216,
+                        "dmd_exe_size":  5396480
+                    }
+    },
+    {
+        "timestamp":  "2025-04-03T21:23:23.0309056Z",
+        "dmd":  {
+                    "version":  "2.109",
+                    "localFolder":  "C:\\Users\\shris\\Downloads\\dmd\\dmd.2.109.0.windows"
+                },
+        "metrics":  {
+                        "hello_exe_size":  328704,
+                        "dmd_exe_size":  5457408
+                    }
+    },
+    {
+        "timestamp":  "2025-04-03T21:23:24.3524204Z",
+        "dmd":  {
+                    "version":  "2.110",
+                    "localFolder":  "C:\\Users\\shris\\Downloads\\dmd\\dmd.2.110.0.windows"
+                },
+        "metrics":  {
+                        "hello_exe_size":  269824,
+                        "dmd_exe_size":  5512704
+                    }
+    }
+]

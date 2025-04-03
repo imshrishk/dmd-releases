@@ -1,0 +1,51 @@
+<div class="chart-section">
+  <div class="chart-controls">
+    <div class="version-range-selector">
+      <button class="range-btn active" data-range="5">Last 5</button>
+      <button class="range-btn" data-range="10">Last 10</button>
+      <button class="range-btn" data-range="all">All Versions</button>
+    </div>
+  </div>
+  <div class="chart-grid">
+    <div id="chartError" class="error-message" style="display:none"></div>
+    <div class="chart-card">
+      <div class="chart-header">
+        <h3>Hello Executable Size</h3>
+        <div class="chart-legend">
+          <span class="legend-item">
+            <span class="legend-color hello-exe-color"></span>Size (KB)
+          </span>
+        </div>
+      </div>
+      <div class="chart-container">
+        <div class="loading-spinner" id="helloChartLoader">
+          <div class="spinner"></div>
+          <p>Loading data...</p>
+        </div>
+        <canvas id="helloChart"></canvas>
+      </div>
+    </div>
+    <div class="chart-card">
+      <div class="chart-header">
+        <h3>DMD Compiler Size</h3>
+        <div class="chart-legend">
+          <span class="legend-item">
+            <span class="legend-color dmd-exe-color"></span>Size (KB)
+          </span>
+        </div>
+      </div>
+      <div class="chart-container">
+        <div class="loading-spinner" id="dmdChartLoader">
+          <div class="spinner"></div>
+          <p>Loading data...</p>
+        </div>
+        <canvas id="dmdChart"></canvas>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+window.BASE_URL = "{{site.baseurl}}";
+window.USE_SAMPLE_DATA = false;
+</script>
+<script src="{{'/assets/js/app.js'|relative_url}}"></script>
